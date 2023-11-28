@@ -13,3 +13,17 @@ body{
     background-color: black;
     color: white;
 }
+.app-aside-table{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 88vh;
+    background-color: transparent;
+}
+.app-aside{
+    width: 400px;
+}
+.appmusic{
+    width: calc(100% - 400px);
+}

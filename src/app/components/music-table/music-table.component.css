@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    font-family: "CircularStd", system-ui, sans-serif;
+}
+.app-music-display{
+    width: 100%;
+    height: 100%;
+    padding: 8px 8px 8px 0px;
+}
+.content-data-music{
+    width: 100%;
+    height: 84vh;
+    background-color: #121212;
+    display: block;
+    border-radius: 10px;
+}
+.header-encabezado{
+    width: 100%;
+    height: 65px;
+    background-color: #5A0D03;
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px 16px;
+}
+.header-tablemusic{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-left-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.btn-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tittle-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-left-div a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-iconoss-play{
+    border: none;
+    background-color: #1FDF64;
+    width: 50px;
+    height: 50px;
+    margin: 0px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-iconoss-play:hover{
+    transform: scale(1.04);
+}
+.btn-iconoss-play svg{
+    width: 24px;
+}
+.btn-iconoss{
+    border: none;
+    background-color: #1B0401;
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+.btn-iconoss svg{
+    width: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6.5px;
+    fill: white;
+}
+.btn-iconoss:hover{
+    fill: white;
+}
+.btn-iconoss:hover svg{
+    fill: white;
+}
+.btn-left-div a svg{
+    width: 16px;
+    fill: white;
+    margin: 5px;
+}
+.btn-left-div a{
+    font-size: 0.875rem;
+    background-color: #1B0401;
+    margin: 5px;
+    padding: 3px 8px;
+    padding-right: 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 500;
+}
